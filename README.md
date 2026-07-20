@@ -39,12 +39,16 @@ git clone https://github.com/MasSugenk/CRNN-LSTM_Rainfall_Prediction.git
 cd CRNN-LSTM_Rainfall_Prediction
 pip install -r requirements.txt
 ```
-## Training
+## Training and Validation
 ```bash
-python src/train.py --config configs/config.yaml
+python src/Model_baseline_LSTM.ipynb
+python src/Model_LSTM_attention.ipynb
 ```
+<img width="1217" height="517" alt="image" src="https://github.com/user-attachments/assets/73e83dc3-0672-4692-8a75-8e09ec6cf159" />
+
 ## Evaluation
 ```bash
-python src/evaluate.py --model_path results/models/best_model.h5
+Model Tersimpan di  : ./model_pembanding_CNN-LSTM_1jam\best_baseline_model.keras
+Hasil Prediksi di   : ./model_pembanding_CNN-LSTM_1jam\baseline_test_predictions.csv
 ```
 
