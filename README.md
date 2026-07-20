@@ -37,5 +37,6 @@ The proposed model combines:
 git clone https://github.com/MasSugenk/CRNN-LSTM_Rainfall_Prediction.git
 cd CRNN-LSTM_Rainfall_Prediction
 pip install -r requirements.txt
+'''
 
 ## 🚀 Training
